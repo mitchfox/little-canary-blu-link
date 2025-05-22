@@ -186,7 +186,7 @@ export default function Home() {
       icon: null,
     },
     {
-      title: 'With Me',
+      title: 'WithMe',
       description: '',
       href: 'https://withme.so/Littlecanaryblu',
       image: WithMeLogo,
@@ -207,11 +207,11 @@ export default function Home() {
                     'linear-gradient(to bottom, rgba(17, 24, 39, 0) 0%, rgba(17, 24, 39, 0.8) 50%, rgba(17, 24, 39, 0.95) 75%, rgb(17, 24, 39) 100%)',
                 }}
               />
-              <div className="mx-auto h-[52dvh] w-[95%] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
+              <div className="mx-auto h-[52dvh] w-full sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
                 <img
                   src={Littlecanaryblu_img.src}
                   alt="Founders"
-                  className="h-full w-full object-contain sm:object-cover object-top sm:rounded-3xl border-2 border-purple-800/30"
+                  className="h-full w-full object-cover sm:object-cover object-top sm:rounded-3xl border-2 border-purple-800/30"
                 />
               </div>
             </div>
