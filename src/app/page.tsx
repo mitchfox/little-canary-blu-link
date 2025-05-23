@@ -71,7 +71,7 @@ function LinkBox({
     <a
       href={href}
       target="_blank"
-      className="flex items-center justify-between rounded-2xl border border-purple-800/40 bg-gray-800/70 p-2 backdrop-blur-sm transition-colors hover:bg-gray-700/80 hover:border-purple-600/60"
+      className="flex items-center justify-between rounded-2xl border border-purple-800/40 bg-gray-800/70 p-2 backdrop-blur-sm transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gray-700/40 hover:border-purple-600/60"
     >
       <div className="flex flex-1 items-center gap-4">
         {image ? (
@@ -232,7 +232,7 @@ export default function Home() {
                 ))}
               </div>
 
-              <div className="space-y-4 px-4">
+              <div className="space-y-4 px-6">
                 {linksData.map(({ title, description, href, image, icon }) => (
                   <LinkBox
                     key={title}
