@@ -222,7 +222,7 @@ export default function Home() {
               >
                 Canaryblu
               </h1>
-              <p className="mb-8 px-6 text-sm text-gray-300/80">
+              <p className="mb-8 px-6 text-sm text-purple-100">
                 Critical Care | Creator | Mom
               </p>
 
