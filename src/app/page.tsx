@@ -6,7 +6,7 @@ import {
   InstagramIcon,
   AmazonIcon,
 } from '@/components/SocialIcons'
-import { Satisfy } from 'next/font/google'
+import { Rancho } from 'next/font/google'
 import { FreeTrialBanner } from '@/components/FreeTrial'
 import WithMeLogo from '@/images/photos/withmelogo.png'
 import Littlecanaryblu_img from '../images/photos/Littlecanaryblu_img.jpg'
@@ -17,7 +17,7 @@ import { BiDollarCircle } from "react-icons/bi";
 import { RiTelegramLine, RiTwitterXFill } from "react-icons/ri";
 import { FiTwitter } from "react-icons/fi";
 
-const satisfy = Satisfy({
+const rancho = Rancho({
   subsets: ['latin'],
   weight: '400',
   display: 'swap',
@@ -211,14 +211,14 @@ export default function Home() {
                 <img
                   src={Littlecanaryblu_img.src}
                   alt="Founders"
-                  className="h-full w-full object-cover sm:object-cover object-top sm:rounded-3xl border-2 border-purple-800/30"
+                  className="h-full w-full object-cover sm:object-cover object-top sm:rounded-3xl"
                 />
               </div>
             </div>
 
             <div className="relative z-30">
               <h1
-                className={`${satisfy.className} -mt-16 mb-4 text-4xl leading-none text-purple-300 sm:mt-6 sm:text-5xl`}
+                className={`${rancho.className} -mt-16 mb-4 text-7xl leading-none text-purple-300 sm:mt-6 sm:text-8xl`}
               >
                 Canaryblu
               </h1>
